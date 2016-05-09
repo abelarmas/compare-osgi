@@ -41,7 +41,7 @@
 							ee.ut.eventstr.*,
 							hub.top.*,
 							com.google.gwt.dev.util.collect.*,
-							org.deckfour.xes.*
+							org.deckfour.xes.model
 						</Export-Package>
 					</instructions>
 				</configuration>

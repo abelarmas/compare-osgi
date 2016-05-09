@@ -55,6 +55,7 @@
                             org.apromore.plugin,
                             org.springframework.beans.factory.aspectj,
                             hub.top.petrinet,
+                            org.deckfour.xes.model,
                             ee.ut.*,
                             *
                         </Import-Package>
