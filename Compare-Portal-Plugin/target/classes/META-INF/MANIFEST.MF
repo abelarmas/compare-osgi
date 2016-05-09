@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462768003867
+Build-Jdk: 1.7.0_79
+Built-By: armascer
+Bundle-Description: Some description
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Compare portal plugin
+Bundle-SymbolicName: org.apromore.plugin.compareBP-portal-plugin
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Transitive: false
+Export-Package: org.apromore.plugin.portal.compareBP;version="1.1.0";use
+ s:="hub.top.petrinet,javax.inject,org.apromore.plugin.portal,org.apromo
+ re.service,org.apromore.service.compare,org.deckfour.xes.factory,org.de
+ ckfour.xes.model,org.jbpt.petri,org.springframework.stereotype,org.zkos
+ s.zk.ui.event,org.zkoss.zul"
+Import-Package: hub.top.petrinet;version="[1.1,2)",javax.activation;vers
+ ion="[1.1,2)",javax.inject;version="[1.0,2)",org.apache.commons.io;vers
+ ion="[1.4,2)",org.apromore.helper;version="[1.1,2)",org.apromore.model;
+ version="[1.1,2)",org.apromore.plugin.portal;version="[1.1,2)",org.apro
+ more.plugin.property;version="[1.1,2)",org.apromore.service;version="[1
+ .1,2)",org.apromore.service.compare;version="[1.1,2)",org.apromore.serv
+ ice.helper;version="[1.1,2)",org.deckfour.xes.extension.std;version="[1
+ .0,2)",org.deckfour.xes.factory;version="[1.0,2)",org.deckfour.xes.in;v
+ ersion="[1.0,2)",org.deckfour.xes.model;version="[1.0,2)",org.jbpt.hype
+ rgraph.abs;version="[0.2,1)",org.jbpt.petri;version="[0.2,1)",org.jbpt.
+ petri.io;version="[0.2,1)",org.slf4j;version="[1.7,2)",org.springframew
+ ork.stereotype;version="[3.1,4)",org.zkoss.util.media;version="[6.5,7)"
+ ,org.zkoss.zk.ui;version="[6.5,7)",org.zkoss.zk.ui.event;version="[6.5,
+ 7)",org.zkoss.zul;version="[6.5,7)",org.apromore.plugin;version="[1.1,2
+ )",org.springframework.beans.factory.aspectj;version="[3.1,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.7))"
+Tool: Bnd-3.0.0.201509101326

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462767987716
+Build-Jdk: 1.7.0_79
+Built-By: armascer
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Compare service
+Bundle-SymbolicName: org.apromore.compare-logic
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apromore.service.compare;uses:="hub.top.petrinet,org
+ .deckfour.xes.model";version="1.1.0",hub.top.petrinet;uses:="org.antlr.
+ runtime";version="1.1.0",com.google.gwt.dev.util.collect;version="1.1.0
+ ",org.deckfour.xes.model;uses:="org.deckfour.xes.extension,org.deckfour
+ .xes.id,org.deckfour.xes.model.impl,org.deckfour.xes.classification,org
+ .deckfour.xes.info";version="1.0.0"
+Import-Package: ee.ut.eventstr.comparison;version="[1.0,2)",hub.top.petr
+ inet,org.antlr.runtime,org.apromore.service.compare;version="[1.1,2)",o
+ rg.deckfour.xes.classification;version="[1.0,2)",org.deckfour.xes.exten
+ sion;version="[1.0,2)",org.deckfour.xes.id;version="[1.0,2)",org.deckfo
+ ur.xes.info;version="[1.0,2)",org.deckfour.xes.model;version="[1.0,2)",
+ org.deckfour.xes.model.impl;version="[1.0,2)",org.slf4j;version="[1.7,2
+ )",org.springframework.beans.factory.aspectj;version="[3.1,4)",org.spri
+ ngframework.stereotype;version="[3.1,4)"
+Tool: Bnd-1.50.0

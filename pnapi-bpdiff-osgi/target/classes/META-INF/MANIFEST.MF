@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1462767516621
+Build-Jdk: 1.7.0_79
+Built-By: armascer
+Bundle-ClassPath: .,/lib/pnapi-1.0.jar,pnapi-1.0.jar
+Bundle-License: http://www.gnu.org/licenses/lgpl-3.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: PNAPI BPDiff OSGI
+Bundle-SymbolicName: org.pnapi-bpdiff-osgi
+Bundle-Version: 1.1.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: artifactId=pnapi
+Embed-Transitive: false
+Embedded-Artifacts: pnapi-1.0.jar;g="ut.ee";a="pnapi";v="1.0"
+Export-Package: hub.top.petrinet;uses:="org.antlr.runtime";version="1.1.
+ 0",hub.top.petrinet.util;uses:="hub.top.petrinet";version="1.1.0"
+Import-Package: org.antlr.runtime
+Tool: Bnd-1.50.0

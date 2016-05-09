@@ -1,0 +1,4 @@
+org.codehaus.plexus.compiler.javac.JavacCompiler3005746336801378032arguments
+org/apromore/service/compare/CompareService.class
+javac.sh
+org/apromore/service/compare/impl/CompareServiceImpl.class
